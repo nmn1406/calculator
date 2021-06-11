@@ -1,0 +1,54 @@
+.main{
+    margin:0 auto;
+    border:rgb(253, 146, 5) solid 1px;
+    border-radius: 2px;
+    width: 38%;
+    padding: 20px;
+    position: relative;
+}
+.input{
+   position: absolute;
+   width: 88%;
+   padding: 10px;
+   font-size: 2em;
+}
+.numbers{
+    width: 25%;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 2em;
+}
+.zero{
+    width: 51%;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 2em;
+}
+.decimal{
+    width: 25%;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 2em;
+}
+.operator{
+    background-color: rgb(253, 146, 5);
+    width: 20%;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 2em;
+}
+
+@media screen and (max-width: 480px) {
+    .main {
+      width: 75%;
+    }
+  }
+  @media screen and (min-width: 481px) and (max-width: 930px) {
+    .main {
+      width: 80%;
+    }
+  }
