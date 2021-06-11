@@ -44,12 +44,13 @@
 
 @media screen and (max-width: 480px) {
     .main {
-      width: 95%;
+      width: 90%;
     }
     .input{
         width:80%;
     }
   }
+
   @media screen and (min-width: 481px) and (max-width: 930px) {
     .main {
       width: 80%;

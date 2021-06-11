@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a basic calculator and can be used for some basic calculations">
     <title>Calculator</title>
     <link rel="icon" href="calc_icon.png" type="image/png">
     <link rel="stylesheet" href="style.css">
@@ -14,36 +15,39 @@
             <input type="text" class="input" value="0" disabled>
             <hr style="margin-top: 100px;">
             <div>
-            <button class="numbers">C</button>
-            <button class="numbers">+/-</button>
-            <button class="numbers"><=</button>
-            <button class="operator">/</button>
+            <button class="numbers" onclick="playAudio()">C</button>
+            <button class="numbers" onclick="playAudio()">+/-</button>
+            <button class="numbers" onclick="playAudio()"><=</button>
+            <button class="operator" onclick="playAudio()">/</button>
 
-            <button class="numbers">7</button>
-            <button class="numbers">8</button>
-            <button class="numbers">9</button>
-            <button class="operator">X</button>
+            <button class="numbers" onclick="playAudio()">7</button>
+            <button class="numbers" onclick="playAudio()">8</button>
+            <button class="numbers" onclick="playAudio()">9</button>
+            <button class="operator" onclick="playAudio()">X</button>
             
-            <button class="numbers">4</button>
-            <button class="numbers">5</button>
-            <button class="numbers">6</button>
-            <button class="operator">-</button>
+            <button class="numbers" onclick="playAudio()">4</button>
+            <button class="numbers" onclick="playAudio()">5</button>
+            <button class="numbers" onclick="playAudio()">6</button>
+            <button class="operator" onclick="playAudio()">-</button>
 
-            <button class="numbers">1</button>
-            <button class="numbers">2</button>
-            <button class="numbers">3</button>
-            <button class="operator">+</button>
+            <button class="numbers" onclick="playAudio()">1</button>
+            <button class="numbers" onclick="playAudio()">2</button>
+            <button class="numbers" onclick="playAudio()">3</button>
+            <button class="operator" onclick="playAudio()">+</button>
             
 
-            <button class="zero">0</button>
-            <button class="decimal">.</button>
-            <button class="operator">=</button>
-            
+            <button class="zero" onclick="playAudio()">0</button>
+            <button class="decimal" onclick="playAudio()">.</button>
+            <button class="operator" onclick="playAudio()">=</button>
+
             </div>
+    <script>
+        function playAudio(){
+            var audio = new Audio('click.wav');
+            audio.play();
+        }
+    </script>  
             
-                
-                
-                
                 
                
 
