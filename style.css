@@ -46,6 +46,9 @@
     .main {
       width: 98%;
     }
+    .input{
+        width:80%;
+    }
   }
   @media screen and (min-width: 481px) and (max-width: 930px) {
     .main {
