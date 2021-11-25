@@ -6,18 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="This is a basic calculator and can be used for some basic calculations">
     <title>Calculator</title>
-    <link rel="icon" href="calc_icon.png" type="image/png">
+    <link rel="icon" href="img/calc_icon.png" type="image/png">
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <div class="main">
         <label for="input">Calculator</label><br>
-            <input type="text" id="input" class="input"  disabled maxlength="25">
-            <hr style="margin-top: 100px;">
+            <input type="text" id="input" class="input" value="0"  disabled maxlength="25">
+            <hr>
             <div>
             <button class="numbers" onclick=" playAudio() ,clr()">C</button>
             <button class="numbers" onclick="playAudio()">+/-</button>
-            <button class="numbers" onclick="playAudio()"><img src="backspace.png" alt="" width="29%"></button>
+            <button class="numbers" onclick="playAudio() ,backspace()"><img src="img/backspace.png" alt="backspace" width="29%"></button>
             <button class="operator" onclick="playAudio(), dis('/')">/</button>
 
             <button class="numbers" onclick="playAudio() , dis(7)">7</button>
@@ -44,13 +45,12 @@
 
 
     <script src="script.js"></script>
-            
-                
-               
-
-
-        
+       
     
     </div>
+    <!-- <div class="history">
+        <h2>History</h2>
+        <hr>
+    </div> -->
 </body>
 </html>
